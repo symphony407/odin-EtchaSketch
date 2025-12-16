@@ -6,3 +6,9 @@
     height: 480px;
     border: 2px solid black;
 }
+.toolbar{
+    margin-bottom: 10px;
+}
+.toolbar button {
+    margin-right: 5px;
+}

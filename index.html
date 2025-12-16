@@ -17,14 +17,26 @@
     .grid-cell {
       border: 1px solid #ddd;
     }
+
+    .toolbar {
+      margin-bottom: 10px;
+    }
+    .toolbar button {
+      margin-right: 5px;
+    }
   </style>
 </head>
+<h1>Etch-A-Sketch</h1>
 <body>
-  <button id="reset">Reset Grid</button>
+  <div class="toolbar">
+    <button id="reset">Reset Grid</button>
+    <button id="resize">Resize Grid</button>
+    <button id="eraser">Eraser Mode</button>
+    <button id="color">Random Colors</button>
+  </div>
+
   <div id="container" class="container"></div>
+
   <script src="script.js" defer></script>
-  <button id="reset">Reset Grid</button>
-  <button id="resize">Resize Grid</button>
-  <div id="container" class="container"></div>
 </body>
 </html>
